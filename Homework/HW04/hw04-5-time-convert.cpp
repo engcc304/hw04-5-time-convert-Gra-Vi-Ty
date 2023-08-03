@@ -24,7 +24,7 @@ int main(){
     int total ;
     total = day * 24 * 60 * 60 ;
     
-    printf( "%d days = %d", day, total );
+    printf( "%d days = %d seconds", day, total );
 
     return 0 ;
 }
